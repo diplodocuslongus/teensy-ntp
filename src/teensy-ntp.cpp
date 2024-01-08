@@ -1,3 +1,5 @@
+#include "Arduino.h"
+
 #include "lwip_t41.h"
 #include "lwip/inet.h"
 #include "lwip/dhcp.h"
@@ -16,6 +18,11 @@
 #include "settings.h"
 
 #define WAIT_COUNT 3
+
+// need to declare these or we get a lot of undefined references errors (Ludo)
+//WebServer webserver;
+//WebContent webcontent;
+//extern WebContent webcontent;
 
 GPSDateTime gps(&GPS_SERIAL);
 NTPClock localClock;

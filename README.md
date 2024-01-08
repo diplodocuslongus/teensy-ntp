@@ -1,3 +1,7 @@
+
+
+original notes from ddrown
+
 Hardware:
 * teensy 4.1 + ethernet connector
 * GPS module with PPS on pin 35, GPS TX (pin 0), GPS RX (pin 1) (I'm using a ublox Neo-7N, but many others would work)
