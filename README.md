@@ -1,3 +1,25 @@
+Connect teensy to host computer via usb
+monitor the usb serial connection.
+ex:
+
+pio device monitor -e teensy_ntp
+
+plug in the ethernet from router /switch to teensy.
+
+This will be shown in the console:
+$ pio device monitor -e teensy_ntp
+--- Terminal on /dev/ttyACM0 | 115200 8-N-1
+--- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+enet link status: up
+netif status changed: ip 0.0.0.0, mask 0.0.0.0, gw 0.0.0.0
+netif status changed: ip 192.168.1.100, mask 255.255.255.0, gw 192.168.1.1
+
+(this of course assumes the host computer is connected on the same router / swithc, here via wifi).
+
+![screenshot_no GPS](img/teensy_NTP_server_browser_screenshot.png)
+
 
 
 original notes from ddrown
