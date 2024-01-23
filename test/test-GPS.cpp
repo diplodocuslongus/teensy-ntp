@@ -1,7 +1,7 @@
 #include "test.h"
-#include "DateTime.h"
-#include "GPS.h"
-#include "InputCapture.h"
+#include "../include/DateTime.h"
+#include "../include/GPS.h"
+#include "../include/InputCapture.h"
 
 #define MOCK_MILLIS 1000000
 

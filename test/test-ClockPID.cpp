@@ -1,5 +1,5 @@
 #include "test.h"
-#include "ClockPID.h"
+#include "../include/ClockPID.h"
 
 void test_addsample() {
   ClockPID.reset_clock();

@@ -1,6 +1,6 @@
 #include "test.h"
 #include <time.h>
-#include "NTPClock.h"
+#include "../include/NTPClock.h"
 
 void test_settime() {
   NTPClock clock;
